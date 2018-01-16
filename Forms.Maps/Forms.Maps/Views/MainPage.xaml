@@ -25,5 +25,11 @@
                 <views:AboutPage />
             </x:Arguments>
         </NavigationPage>
+
+        <NavigationPage Title="Map">
+            <x:Arguments>
+                <views:MapsPage />
+            </x:Arguments>
+        </NavigationPage>
     </TabbedPage.Children>
 </TabbedPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             x:Class="Forms.Maps.Views.MapsPage">
+    <ContentPage.Content>
+        <maps:Map VerticalOptions="FillAndExpand"
+                      x:Name="MainMap"
+                      IsShowingUser="True"
+                      MapType="Street"
+                      MyLocationEnabled="True"
+                      InitialCameraUpdate="37.422, -122.084"
+                      IsVisible="True" />
+    </ContentPage.Content>
+</ContentPage>
